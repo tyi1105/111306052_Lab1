@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>html1</title>
+    <style>
+        h1 {
+            color: #333;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        textarea {
+            width: 50%;
+            height: 10px;
+            border-radius: 8px;
+            padding: 8px;
+        }
+    </style>
+</head>
+    <h1>About-111306052</h1>
+
+    <table>
+        <tr>
+            <td rowspan="3">
+                <img src="/Users/hy1iiii/Downloads/作業.jpg" alt="Your Photo">
+                <br>
+                <em><strong>Personal Photo</strong></em>
+            </td>
+            <td>Name:
+                <textarea placeholder="Your Name."></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Gender:
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other
+            </td>
+        </tr>
+        <tr>
+            <td>County:
+                <select>
+                    <option value="taipei">Taipei</option>
+                    <option value="tainan">Tainan</option>
+                    <option value="taichung">Taichung</option>
+                    <option value="taoyuan">Taoyuan</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Birthday:</td>
+            <td>
+                <input type="date">
+            </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td>
+                <textarea placeholder="Your Email."></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Hobby:</td>
+            <td>
+                <input type="checkbox" name="hobby" value="dancing"> Dancing
+                <input type="checkbox" name="hobby" value="basketball">Basketball
+                <input type="checkbox" name="hobby" value="movie"> Movie
+                <input type="checkbox" name="hobby" value="game"> Game
+                <input type="checkbox" name="hobby" value="sleep"> Sleep
+            </td>
+        </tr>
+        <tr>
+            <td>Skill:</td>
+            <td>
+                <input type="checkbox" name="skill" value="java"> Java
+                <input type="checkbox" name="skill" value="html"> HTML
+                <input type="checkbox" name="skill" value="python"> Python
+                <input type="checkbox" name="skill" value="microsoft_office"> Microsoft Office
+                <input type="checkbox" name="skill" value="premiere"> Premiere
+            </td>
+        </tr>
+        <tr>
+            <td>Say something:</td>
+            <td>
+                <!-- Textarea for user input -->
+                <textarea placeholder="Say something here."></textarea>
+            </td>
+        </tr>
+    </table>
+<div>  
+<input type="button" value="Submit" onclick="submitForm()">
+        <input type="reset" value="Reset">
+    </div>
+</body>
+</html>
+
+    
